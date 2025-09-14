@@ -1,4 +1,4 @@
-# IMPORTANT!!! Please run "Guess the Number 2.py" for direct access to Command Prompt.
+# THIS IS AN UNFINISHED PROGRAM. (TODO: finish colorama settings)
 
 # Import the modules
 import random
@@ -22,7 +22,7 @@ gameModeBonus = 0
 # while True makes it loop forever
 while True:
     # The homescreen. Asks the player to type in something.
-    # As long as difficultyType is True, the homescreen will appear after the player types something.
+    # As long as difficultyType is True, the homescreen will appear after the player types something. (I wasnt that good at coding back then)
     difficultyType = True
     while difficultyType == True:
         print(Style.NORMAL + Fore.CYAN + "=== GAME MODES ===")
@@ -173,3 +173,4 @@ while True:
         print(Style.RESET_ALL + Fore.BLUE + "Goodbye. Thank you for playing Guess the Number!")
         sleep(2)
         exit()
+
