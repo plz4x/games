@@ -7,3 +7,5 @@ a few days before i signed up, i thought, "hey, would be nice if i could share m
 and so I did. i signed up for github. and now thats where i am today. now i import my py programs to github.
 the end.
 :)
+
+P.S. the reason why everything has such funny commit names is because i had no idea what commit names were and so gave them funny names. sorry
