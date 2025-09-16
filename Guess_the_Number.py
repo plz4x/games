@@ -1,6 +1,10 @@
 # THIS IS AN UNFINISHED PROGRAM. (TODO: finish colorama settings)
-# THIS PROGRAM USES COLORAMA, a module for colouring text in Python, AND MAY NOT WORK
+# NOTICE: THIS PROGRAM USES COLORAMA, a module for colouring text in Python, AND MAY NOT WORK
 # IN CERTAIN EDITORS, LIKE IDLE. Run it in your computer terminal instead.
+# NOTICE: COLORAMA IS NOT INSTALLED BY DEFAULT ON MOST COMPUTERS, so you may have to manually
+# install it. To do so, type the following in your computer terminal (works on Windows, macOS and Linux):
+# python -m ensurepip --upgrade (install pip)
+# pip install colorama (install colorama)
 
 # Import the modules
 import random
@@ -175,5 +179,6 @@ while True:
         print(Style.RESET_ALL + Fore.BLUE + "Goodbye. Thank you for playing Guess the Number!")
         sleep(2)
         exit()
+
 
 
