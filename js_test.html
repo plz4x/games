@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>js test</title>
+    </head>
+    <body>
+        <h1 id="yayincrement">0</h1>
+        <button onclick="increment()" id="buttonfont">
+            Click on this dull outlined quadrilateral to witness a glamorous numerical incrementation!
+        </button>
+        <script>
+            let stuff = 0;
+            function increment() {
+                stuff++;
+                document.getElementById("yayincrement").innerText = stuff;
+            }
+        </script>
+        <style>
+            #yayincrement, #buttonfont {
+                font-family: Bahnschrift;
+            }
+        </style>
+    </body>
+</html>
