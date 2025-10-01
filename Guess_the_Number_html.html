@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
         <title>Guess the number but mediocre i guess</title>
         <meta charset="UTF-8">
@@ -30,7 +30,15 @@
                 let userInput = document.getElementById("user_input").value;
                 let feedback = document.getElementById("feedback");
                 let guessesP = document.getElementById("guesses");
-                if (userInput < num) {
+                if (userInput == "") {
+                    feedback.innerHTML = "VVHAT IS DIS??? U LAZYBONE!!! U TYPEAD NUTTING!!! OR U TYPEAD SUMETINGE RANDOM NOT NUMBRE!!! U SHALL BE PAUNISH! +9000GUESSES!!! ENTER GUD NUMBER!!!";
+                    guesses += 9000;
+                    guessesP.innerHTML = guesses;
+                }
+                else if (userInput > 100 || userInput < 1) {
+                    feedback.innerHTML = "2 BIG! 2 SMALL! ENTER GUD NUMBER!!!";
+                }
+                else if (userInput < num) {
                     guesses++;
                     feedback.innerHTML = "TOO <b><i><u><span style='font-family: Goudy Stout;'>LOW</span></u></i></b>!!! entre an other num 2 try again";
                     guessesP.innerHTML = guesses;
@@ -44,12 +52,6 @@
                     guesses++;
                     document.open()
                     document.write("<style>body { font-family: 'Comic Sans MS'; text-color: green; }</style><h1>YAYYY U CORRECTEDATTODAS!!! THE GUD NUMBER IS THE " + num + "!!!</h1><h2>U TOOK " + guesses + " TRYS!!! SO SLOW!!!!!</h2><h3>PRESS THE SPINNY THINGY TO REE SET THE PAGE AND PLAY AGAIN!!! BYE</h3>");
-                }
-                else if (userInput > 100 || userInput < 1) {
-                    feedback.innerHTML = "2 BIG! 2 SMALL! ENTER GUD NUMBER!!!";
-                }
-                else{
-                    feedback.innerHTML = "SOLLY! I M NOT A AI SO I DONTA UNTERSTANTA! PLEASE ENTER GUD NUMBER!!!";
                 }
             }
         </script>
