@@ -5,17 +5,17 @@
         <meta charset="UTF-8">
     </head>
     <body>
-        <h1 id="start_text"><b>HIIII!</b>yes this is my second game in JAVASCRIPT!!11!!!!</h1>
-        <p id="start_text"><i><small>btw my first game was where u had to click a dull outlined quadrilateral to witness a glamorous numerical incrementation...</small></i></p>
-        <h2 id="start_text">BUT YES SO BASICALLY ILL THINK OF A NUMBER BETWEEN 1 TO 100 OK???</h2>
-        <h3 id="start_text">AND U HAVE TO GUESS IT!!!! U HAVE UNLIMITED TRYS</h3>
-        <h4 id="start_text">PRESS THE START TO EBGIN!!!!!!!!!!!!!</h4>
-        <button onclick="EBGIN()" id="start_text">START TO EBGIN</button>
+        <h1 class="start_text"><b>HIIII!</b>yes this is my second game in JAVASCRIPT!!11!!!!</h1>
+        <p class="start_text"><i><small>btw my first game was where u had to click a dull outlined quadrilateral to witness a glamorous numerical incrementation...</small></i></p>
+        <h2 class="start_text">BUT YES SO BASICALLY ILL THINK OF A NUMBER BETWEEN 1 TO 100 OK???</h2>
+        <h3 class="start_text">AND U HAVE TO GUESS IT!!!! U HAVE UNLIMITED TRYS</h3>
+        <h4 class="start_text">PRESS THE START TO EBGIN!!!!!!!!!!!!!</h4>
+        <button onclick="EBGIN()" class="start_text">START TO EBGIN</button>
         <script>
             var num = Math.floor(Math.random() * 100) + 1;
             var guesses = 0;
             function EBGIN() {
-                document.querySelectorAll("#start_text").forEach(el => el.remove());
+                document.querySelectorAll(".start_text").forEach(el => el.remove());
     
                 let paragraphs = ["<b>I HAVE THOUGHT OF A NUMBER BETWEEN 1 TO 100!!!</b>",
                 "ENTER YOUR GUESS BELOW AND PRESS THE CHECK ANSWER BUTTON", "<input type='number' id='user_input' min='1' max='100'>",
