@@ -15,3 +15,5 @@ the end.
 :)
 
 P.S. the reason why everything has such funny commit names is because i had no idea what commit names were and so gave them funny names. sorry
+
+UPDATE: this is me from 2026 and probably i wont be working as much on this, i'll be working more on htmling and stuff
